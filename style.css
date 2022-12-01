@@ -1,0 +1,25 @@
+*{
+    background-color: brown;
+    
+}
+.box-1{
+    display: grid ;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 100px 100px 100px ;
+    gap: 1px 1px;
+ 
+    justify-content: center;
+}
+.box {
+border: 5px solid #eee;
+justify-content: center;
+text-align: center;
+margin: 10px;
+
+}
